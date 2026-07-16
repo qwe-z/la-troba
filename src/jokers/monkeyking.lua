@@ -1,13 +1,14 @@
 SMODS.Joker {
-    key = 'monkyking',
+    key = 'monkeyking',
     atlas = 'placeholders',
     pos = {
         x = 0,
         y = 0
     },
     discovered = true,
-    rarity = 1,
-    cost = 0,
+    rarity = 4,
+    soul_pos = nil,
+    cost = 500,
     config = {
         extra = {
             amt = 1,
@@ -25,7 +26,9 @@ SMODS.Joker {
                             edition = {negative = true}
                         })
                     end
-                    card.ability.extra.amt = card.ability.extra.amt + 1
+                    if card.ability.extra.amt < 4 then
+                        card.ability.extra.amt = card.ability.extra.amt + 1
+                    end
                     return true
                 end
         }))
