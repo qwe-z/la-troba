@@ -1,0 +1,9 @@
+{
+    "id": "trobala",
+    "name": "la troba",
+    "author": ["qwe-k"],
+    "description": "",
+    "prefix": "qwektm",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+}
