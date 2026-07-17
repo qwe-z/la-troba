@@ -25,3 +25,7 @@ for _, file in ipairs(consumables_src) do
 end
 
 --#endregion
+
+SMODS.current_mod.optional_features = {
+    retrigger_joker = true,
+}

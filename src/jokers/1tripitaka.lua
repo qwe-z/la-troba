@@ -6,6 +6,7 @@ SMODS.Joker {
         y = 0
     },
     discovered = true,
+    unique = true,
     rarity = 1,
     cost = 3,
     config = {
@@ -17,8 +18,8 @@ SMODS.Joker {
     },
 
     eternal_compat = false,
-    calculate = function(self, card, context)
 
+    calculate = function(self, card, context)
         if (context.after and context.main_eval and not context.blueprint) or (context.discard and context.main_eval and not context.blueprint) or 
         context.open_booster or context.buying_card or context.selling_card or context.using_consumeable or context.reroll_shop then
              G.E_MANAGER:add_event(Event({

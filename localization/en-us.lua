@@ -12,7 +12,21 @@ return {
                 name = "Tripitaka",
                 text = {
                     "After 300 actions, create a copy of {C:attention}Golden Staff{}, grants {C:blue}+#2#{} hands",
-                    "{C:inactive}(currently{} {C:attention}#1#{}{C:inactive}}{}"
+                    "{C:inactive}(currently{} {C:attention}#1#{}{C:inactive}){}",
+                    "{C:inactive}actions are regarded as: hands played, discards, opening boosters, {}", 
+                    "{C:inactive}buying cards, selling cards, using consumables and rerolling in the shop{}"
+                }
+            },
+            j_qwektm_monkpig = {
+                name = "Monk Pig",
+                text = {
+                    "Retriggers all food jokers an additional #1# times"
+                }
+            },
+            j_qwektm_sandogre = {
+                name = "Sand Ogre",
+                text = {
+                    "nothing rn"
                 }
             }
         },

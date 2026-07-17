@@ -14,7 +14,7 @@ SMODS.Joker {
             amt = 1,
         }
     },
-
+    blueprint_compat = true,
     eternal_compat = false,
     calculate = function(self, card, context)
         if context.ending_shop and context.main_eval then
@@ -26,7 +26,7 @@ SMODS.Joker {
                             edition = {negative = true}
                         })
                     end
-                    if card.ability.extra.amt < 4 then
+                    if card.ability.extra.amt <= 4 then
                         card.ability.extra.amt = card.ability.extra.amt + 1
                     end
                     return true
@@ -41,5 +41,11 @@ SMODS.Joker {
                 card.ability.extra.amt,
             }
         }
-    end
+    end,
+
+    la_troba_credits = {
+		art = {
+			"monkyking999",
+	},
+    }
 }
