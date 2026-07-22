@@ -1,6 +1,7 @@
 SMODS.Consumable {
     key = 'goldenstaff',
     atlas = 'placeholders',
+    discovered = true,
     pos = {x = 2, y =2},
     config = {
         extra = {

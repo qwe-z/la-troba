@@ -26,9 +26,9 @@ return {
             j_qwektm_sandogre = {
                 name = "Sand Ogre",
                 text = {
-                    "nothing rn"
+                    "Before {C:blue}play{} or {C:red}discard{}, gain {C:attention}+#1# hand size{}"
                 }
-            }
+            },
         },
         Spectral = {
             c_qwektm_goldenstaff = {

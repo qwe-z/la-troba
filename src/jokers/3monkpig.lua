@@ -11,7 +11,7 @@ SMODS.Joker {
     cost = 3,
     config = {
         extra = {
-            reps = 2
+            reps = 3
         }   
     },
     
