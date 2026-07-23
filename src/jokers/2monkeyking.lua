@@ -8,7 +8,7 @@ SMODS.Joker {
     discovered = true,
     rarity = 4,
     soul_pos = nil,
-    cost = 500,
+    cost = 10,
     config = {
         extra = {
             increment = 1,

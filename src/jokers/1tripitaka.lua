@@ -2,7 +2,7 @@ SMODS.Joker {
     key = 'tripitaka',
     atlas = 'placeholders',
     pos = {
-        x = 1,
+        x = 2,
         y = 0
     },
     discovered = true,

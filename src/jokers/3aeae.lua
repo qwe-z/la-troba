@@ -8,7 +8,7 @@ SMODS.Joker {
 
     discovered = true,
     rarity = 3,
-    cost = 0,
+    cost = 5,
 
     config = {
         extra = {
