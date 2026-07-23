@@ -11,10 +11,11 @@ SMODS.Joker {
     cost = 500,
     config = {
         extra = {
+            increment = 1,
             amt = 1,
         }
     },
-    blueprint_compat = true,
+
     eternal_compat = false,
     calculate = function(self, card, context)
         if context.ending_shop and context.main_eval then
@@ -22,13 +23,11 @@ SMODS.Joker {
                 func = function()
                     for i = 1, card.ability.extra.amt do
                         SMODS.add_card({
-                            key = "j_cavendish",
+                            key = "j_qwektm_aeae",
                             edition = {negative = true}
                         })
                     end
-                    if card.ability.extra.amt <= 4 then
-                        card.ability.extra.amt = card.ability.extra.amt + 1
-                    end
+                    card.ability.extra.amt = card.ability.extra.amt + card.ability.extra.increment
                     return true
                 end
         }))
@@ -38,6 +37,7 @@ SMODS.Joker {
     loc_vars = function(self, info_queue, card)
         return {
             vars = {
+                card.ability.extra.increment,
                 card.ability.extra.amt,
             }
         }

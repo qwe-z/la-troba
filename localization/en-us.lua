@@ -1,13 +1,6 @@
 return {
     descriptions = {
         Joker = {
-            j_qwektm_monkeyking = {
-                name = "Monkey King",
-                text = {
-					"Creates copies of {C:dark_edition}Negative{} {C:common}Cavendish{} at the end of the shop, increases by {C:attention}1{} every trigger",
-                    "{C:inactive}(currently{} {C:attention}#1#{}{C:inactive}, capped out at {}{C:attention}5{}{C:inactive}){}"
-                }
-            },
             j_qwektm_tripitaka = {
                 name = "Tripitaka",
                 text = {
@@ -17,10 +10,24 @@ return {
                     "{C:inactive}buying cards, selling cards, using consumables and rerolling in the shop{}"
                 }
             },
+            j_qwektm_monkeyking = {
+                name = "Monkey King",
+                text = {
+					"Creates copies of {C:dark_edition}Negative{} {C:rare}AeAe{} at the end of the shop, increases by {C:attention}#1#{} every trigger",
+                    "{C:inactive}(currently{} {C:attention}#2#{}{C:inactive}){}"
+                }
+            },
+            j_qwektm_aeae = {
+                name = "AeAe",
+                text = {
+                    "Provides {X:talisman_emult,C:white}^#1#{} Mult",
+                    "{C:inactive}({C:red}self destructs{} {C:inactive}at the end of the round){}"
+                }
+            },
             j_qwektm_monkpig = {
                 name = "Monk Pig",
                 text = {
-                    "Retriggers all food jokers an additional #1# times"
+                    "Retriggers all food jokers an additional {C:attention}#1#{} times"
                 }
             },
             j_qwektm_sandogre = {
@@ -29,6 +36,14 @@ return {
                     "Before {C:blue}play{} or {C:red}discard{}, gain {C:attention}+#1# hand size{}"
                 }
             },
+        },
+        Tarot = {
+            c_qwektm_scriptures = {
+                name = "Scriptures",
+                text = {
+                    "Antes"
+                }
+            }
         },
         Spectral = {
             c_qwektm_goldenstaff = {

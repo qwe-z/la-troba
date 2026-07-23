@@ -17,6 +17,7 @@ SMODS.Joker {
     
     food_jokers = { j_gros_michel = true, j_cavendish = true, j_popcorn = true, 
             j_ice_cream = true, j_ramen = true, j_diet_cola = true, j_seltzer = true,
+            j_qwektm_aeae = true
     },
 
     eternal_compat = false,
